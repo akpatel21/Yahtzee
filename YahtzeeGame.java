@@ -1,23 +1,60 @@
+import java.util.Scanner;
 
 public class YahtzeeGame 
 {
 
 	public static void main(String[] args) 
 	{
-		Die d = new Die();
-		
-		for(int i = 0; i < 10; i++)
-			System.out.println("roll(): " + d.roll());
-			
-		System.out.println("getValue(): " + d.getValue());
-		
+		Scanner scan = new Scanner(System.in);
 		Yahtzee yahtzee = new Yahtzee();
 		yahtzee.rollAllDice();
-		System.out.println(yahtzee.showDice());
-		System.out.println("Get value of die number 3 is " + yahtzee.getADie(3));
-		System.out.println(yahtzee.getADie(3));
-		System.out.println(yahtzee.showDice());
-		System.out.println("After re-roll the die number 3: " + yahtzee.getADie(3));
+		System.out.println(yahtzee.getScoreCard());
+		System.out.print("Enter die number(s) to keep (separated by a space): ");
+		String userKeep = scan.nextLine();
+		if(!userKeep.contains("1"))
+		{
+			yahtzee.rollADie(1);
+		}
+		if(!userKeep.contains("2"))
+		{
+			yahtzee.rollADie(2);
+		}
+		if(!userKeep.contains("3"))
+		{
+			yahtzee.rollADie(3);
+		}
+		if(!userKeep.contains("4"))
+		{
+			yahtzee.rollADie(4);
+		}
+		if(!userKeep.contains("5"))
+		{
+			yahtzee.rollADie(5);
+		}
+		System.out.println(yahtzee.getScoreCard());
+		System.out.print("Enter die number(s) to keep (separated by a space): ");
+		userKeep = scan.nextLine();
+		if(!userKeep.contains("1"))
+		{
+			yahtzee.rollADie(1);
+		}
+		if(!userKeep.contains("2"))
+		{
+			yahtzee.rollADie(2);
+		}
+		if(!userKeep.contains("3"))
+		{
+			yahtzee.rollADie(3);
+		}
+		if(!userKeep.contains("4"))
+		{
+			yahtzee.rollADie(4);
+		}
+		if(!userKeep.contains("5"))
+		{
+			yahtzee.rollADie(5);
+		}
+		System.out.print(yahtzee.getScoreCard());
 	}
 
 }

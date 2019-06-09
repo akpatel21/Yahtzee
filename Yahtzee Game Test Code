@@ -1,0 +1,34 @@
+		//Die d = new Die();
+		//for(int i = 0; i < 10; i++)
+		//System.out.println("roll(): " + d.roll());
+		//System.out.println("getValue(): " + d.getValue());
+		
+		//Yahtzee yahtzee = new Yahtzee();
+		//yahtzee.rollAllDice();
+		//System.out.println(yahtzee.showDice());
+		//System.out.println("Get value of die number 3 is " + yahtzee.getADie(3));
+		//yahtzee.rollADice(3);
+		//System.out.println(yahtzee.showDice());
+		//System.out.println("After re-roll the die number 3: " + yahtzee.getADie(3));
+		
+		//Yahtzee yahtzee = new Yahtzee();
+		//yahtzee.rollAllDice();
+		//yahtzee.updateCount();
+		//System.out.print(yahtzee.showDice());
+		
+		//Yahtzee yahtzee = new Yahtzee();
+		//System.out.println(yahtzee.showDice());
+		//System.out.println(" Ones: " + yahtzee.getScoreOnes());
+		//System.out.println(" Twos: " + yahtzee.getScoreTwos());
+		//System.out.println(" Threes: " + yahtzee.getScoreThrees());
+		//System.out.println(" Fours: " + yahtzee.getScoreFours());
+		//System.out.println(" Fives: " + yahtzee.getScoreFives());
+		//System.out.println(" Sixes: " + yahtzee.getScoreSixes());
+		
+		//Yahtzee yahtzee = new Yahtzee();
+		//yahtzee.rollAllDice();
+		//System.out.println(yahtzee.getScoreCard());
+		//yahtzee.rollADie(5);
+		//System.out.println(yahtzee.getScoreCard());
+		//yahtzee.rollADie(1);
+		//System.out.println(yahtzee.getScoreCard());
